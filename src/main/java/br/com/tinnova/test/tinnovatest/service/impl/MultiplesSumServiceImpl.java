@@ -1,8 +1,11 @@
 package br.com.tinnova.test.tinnovatest.service.impl;
 
+import org.springframework.stereotype.Service;
+
 import br.com.tinnova.test.tinnovatest.dto.response.MultiplesSumResponseDTO;
 import br.com.tinnova.test.tinnovatest.service.IMultiplesSumService;
 
+@Service
 public class MultiplesSumServiceImpl implements IMultiplesSumService{
     
     public MultiplesSumResponseDTO solveDivision(int value) {

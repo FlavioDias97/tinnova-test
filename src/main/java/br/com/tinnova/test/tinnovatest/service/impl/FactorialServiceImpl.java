@@ -1,8 +1,11 @@
 package br.com.tinnova.test.tinnovatest.service.impl;
 
+import org.springframework.stereotype.Service;
+
 import br.com.tinnova.test.tinnovatest.dto.response.FactorialResponseDTO;
 import br.com.tinnova.test.tinnovatest.service.IFactorialService;
 
+@Service
 public class FactorialServiceImpl implements IFactorialService{
 
     public FactorialResponseDTO solveFactorial(int value) {

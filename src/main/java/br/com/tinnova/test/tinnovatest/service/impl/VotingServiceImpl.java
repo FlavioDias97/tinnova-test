@@ -1,9 +1,12 @@
 package br.com.tinnova.test.tinnovatest.service.impl;
 
+import org.springframework.stereotype.Service;
+
 import br.com.tinnova.test.tinnovatest.dto.request.VotingRequestDTO;
 import br.com.tinnova.test.tinnovatest.dto.response.VotingResponseDTO;
 import br.com.tinnova.test.tinnovatest.service.IVotingService;
 
+@Service
 public class VotingServiceImpl implements IVotingService{
 
     public VotingResponseDTO calculateWinnerOfVotating(VotingRequestDTO request) {
