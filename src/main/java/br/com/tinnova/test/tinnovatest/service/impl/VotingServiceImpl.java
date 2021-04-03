@@ -18,9 +18,8 @@ public class VotingServiceImpl implements IVotingService{
             .build();
     }
 
-    public double calcPercent(int v1, int v2){
-        return (Double.valueOf(v1 / 100.00) * v2);
-
+    public Integer calcPercent(double v1, double v2){    	
+        return (int) (Double.valueOf(v1 / v2 ) * (double)100);
     }
     
 }

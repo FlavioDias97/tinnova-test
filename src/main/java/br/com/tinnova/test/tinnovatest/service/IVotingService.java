@@ -5,7 +5,7 @@ import br.com.tinnova.test.tinnovatest.dto.response.VotingResponseDTO;
 
 public interface IVotingService {
 
-    public double calcPercent(int value1, int value2);
+    public Integer calcPercent(double value1, double value2);
     public VotingResponseDTO calculateWinnerOfVotating(VotingRequestDTO request);
     
 }
