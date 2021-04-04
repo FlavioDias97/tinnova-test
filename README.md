@@ -9,13 +9,13 @@ Tudo que será necessário para executar o projeto será java 8 instalado na maq
 
 O teste poderá ser realizado diretamente pelo swagger através do endereço: http://localhost:8080//tinnova/swagger-ui.html# ou via curl como nos exemplos abaixo:
 
-Bubble Sort:
+##Bubble Sort:
 
-##Requisição:
+Requisição:
 ```
 curl -X GET "http://localhost:8080/tinnova/api/v1/bubbleSort/solve?values=5&values=3&values=2&values=4&values=6&values=1&values=0&values=6" -H "accept: application/json"
 ```
-##Retorno esperado:
+Retorno esperado:
 ```
 {
   "OrderedVector": [
