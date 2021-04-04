@@ -5,7 +5,13 @@
 
 ### Como executar
 
-Tudo que será necessário para executar o projeto será java 8 instalado na maquina. Para executar basta baixar o JAR que está junto com o projeto ou realizar o build do mesmo com mvn clean install.
+Tudo que será necessário para executar o projeto será java 8 instalado na maquina. Para executar basta baixar o JAR que está junto com o projeto (na pasta executavel) ou realizar o build do mesmo com mvn clean install.
+
+para executar basta utilizar o seguinte comando:
+
+```
+java -jar tinnova-test-cars-0.0.1-SNAPSHOT.jar
+```
 
 O teste poderá ser realizado diretamente pelo swagger através do endereço: http://localhost:8080//tinnova/swagger-ui.html# ou via curl como nos exemplos abaixo:
 
